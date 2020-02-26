@@ -131,6 +131,8 @@ console.log(grandHotelTremezzoGuests);
 // He is wearing a disguise...but orange crocs.
 // Log grandHotelTremezzoGuests to the console.
 
+grandHotelTremezzoGuests.push('Mario Batali');
+console.log(grandHotelTremezzoGuests);
 
 
 
