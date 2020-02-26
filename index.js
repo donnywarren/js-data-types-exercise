@@ -101,14 +101,16 @@ console.log(kilograms);
 // Log grandHotelTremezzoGuests to the console.
 
 
-
+let grandHotelTremezzoGuests = ['George Clooney', 'Silvio Berlusconi', 'Isabella Rossellini'];
+console.log(grandHotelTremezzoGuests);
 
 
 
 // A new guest is checking in! Add "Fabio" to the end of the array.
 // Log grandHotelTremezzoGuests to the console.
 
-
+grandHotelTremezzoGuests.push("Fabio");
+console.log(grandHotelTremezzoGuests);
 
 
 
