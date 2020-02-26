@@ -145,7 +145,8 @@ console.log(grandHotelTremezzoGuests);
 // Log grandHotelTremezzoGuests to the console.
 
 
-
+grandHotelTremezzoGuests.push('Mario Balotelli');
+console.log(grandHotelTremezzoGuests);
 
 
 
