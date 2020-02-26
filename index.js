@@ -175,7 +175,8 @@ console.log(totalGuests);
 // Create a variable 'grandHotelTremezzoPastGuests' set to an empty Array.
 // Log grandHotelTremezzoPastGuests to the console
 
-
+let grandHotelTremezzoPastGuests = [];
+console.log(grandHotelTremezzoPastGuests);
 
 
 
@@ -187,8 +188,11 @@ console.log(totalGuests);
 // Then use the push method to add his name to 'grandHotelTremezzoPastGuests'
 // Log both grandHotelTremezzoGuests and grandHotelTremezzoPastGuests in the same console.log statement.
 
+let removedGuest = grandHotelTremezzoGuests.splice(0, 1);
 
+grandHotelTremezzoPastGuests.push(removedGuest);
 
+console.log(grandHotelTremezzoPastGuests, grandHotelTremezzoGuests);
 
 
 
@@ -202,7 +206,8 @@ console.log(totalGuests);
 //  Log the variable to the console.
 
 
-
+totalGuests = grandHotelTremezzoGuests.length;
+console.log(totalGuests);
 
 
 
