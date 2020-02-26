@@ -225,7 +225,10 @@ console.log(totalGuests);
 // Use a for loop to log out '*PERSON'S NAME* gets a bottle of Nero de Como'
 // for each guest in the grandHotelTremezzoGuests array.
 
-
+for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
+  let name = grandHotelTremezzoGuests[i];
+  console.log(name + " gets a bottle of Nero de Como");
+}
 
 
 
@@ -237,7 +240,10 @@ console.log(totalGuests);
 // Tell them to be quiet by using a for loop to log ... '*PERSON'S NAME* please hush up!!!'
 // for each guest in the grandHotelTremezzoGuests array.
 
-
+for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
+  let name = grandHotelTremezzoGuests[i];
+  console.log(name + " please hush up!!!");
+}
 
 
 
