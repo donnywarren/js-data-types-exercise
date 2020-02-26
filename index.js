@@ -258,7 +258,8 @@ for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
 // Create an empty array assigned to a variable called sleepingGuests
 // Log sleepingGuests to the console.
 
-
+let sleepingGuests = [];
+console.log(sleepingGuests);
 
 
 
@@ -268,6 +269,12 @@ for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
 // (Don't remove them from grandHotelTremezzoGuests.)
 // Log sleepingGuests to the console.
 
+for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
+  let name = grandHotelTremezzoGuests[i];
+  sleepingGuests.push(name);
+}
+
+console.log(sleepingGuests);
 
 
 
