@@ -121,7 +121,8 @@ console.log(grandHotelTremezzoGuests);
 // Log grandHotelTremezzoGuests to the console.
 
 
-
+grandHotelTremezzoGuests.pop();
+console.log(grandHotelTremezzoGuests);
 
 
 
